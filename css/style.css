@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    margin-top: 250px;
+    background-color: #784429;
+    color: white;
+    font-family: arial, sans-serif;
+  }
+  
+  
+  button{
+    font-size: 30px;
+    margin-left:10px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 20px 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+  }
+  button:hover {
+    background-color: yellow;
+    color: red;
+  }
+  
+  #result {
+    text-align: center;
+  }
+ 
+  #score {
+    font-size: 30px;
+    display: inline;
+    padding: 200px;
+  }
+  .computer_result {
+    font-size: 50px;;
+  }
+  .player_result {
+    font-size: 50px;;
+  }
+
