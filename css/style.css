@@ -1,8 +1,8 @@
 body{
     text-align: center;
-    background-color: #784429;
-    color: white;
-    font-family: arial, sans-serif;
+    background-image: url("../pictures/background.jpg");
+    color: black;
+    font-family: 'MedievalSharp', cursive, arial, sans-serif;
   }
   
   
@@ -29,6 +29,7 @@ body{
   #score {
     font-size: 30px;
     display: inline;
+    color: black;
   }
   .computer_result {
     font-size: 50px;;
@@ -41,9 +42,15 @@ img {
   width: 250px;
 }
 
-
 #direction {
   font-size: 25px;
   background-color: black;
   border-radius: 20px;
+}
+h1{
+  font-size: 40px;
+  color: black;
+}
+h2 {
+  color: white;
 }
