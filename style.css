@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    background-image: url("../pictures/background.jpg");
+    color: black;
+    font-family: 'MedievalSharp', cursive, arial, sans-serif;
+  }
+  
+  
+  button{
+    font-size: 30px;
+    margin-left:10px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 20px 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+  }
+  button:hover {
+    background-color: yellow;
+    color: red;
+  }
+  
+  #result {
+    text-align: center;
+  }
+ 
+  #score {
+    font-size: 30px;
+    display: inline;
+    color: black;
+  }
+  .computer_result {
+    font-size: 50px;;
+  }
+  .player_result {
+    font-size: 50px;;
+  }
+
+img {
+  width: 250px;
+}
+
+#direction {
+  font-size: 25px;
+  background-color: black;
+  border-radius: 20px;
+}
+h1{
+  font-size: 40px;
+  color: black;
+}
+h2 {
+  color: white;
+}
