@@ -1,6 +1,5 @@
 body{
     text-align: center;
-    margin-top: 250px;
     background-color: #784429;
     color: white;
     font-family: arial, sans-serif;
@@ -16,6 +15,7 @@ body{
     font-weight: bold;
     background-color: black;
     color: white;
+    border-radius: 20px;
   }
   button:hover {
     background-color: yellow;
@@ -29,7 +29,6 @@ body{
   #score {
     font-size: 30px;
     display: inline;
-    padding: 200px;
   }
   .computer_result {
     font-size: 50px;;
@@ -38,3 +37,13 @@ body{
     font-size: 50px;;
   }
 
+img {
+  width: 250px;
+}
+
+
+#direction {
+  font-size: 25px;
+  background-color: black;
+  border-radius: 20px;
+}

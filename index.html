@@ -9,13 +9,20 @@
     <title>Lapis, Papyrus, Scalpellus</title>
 </head>
 <body>
-    <h1> Welcome to Lapis, Papyrus, Scalpellus!</h1>
-  
-    <h2>CHOOSE AN OPTION BELOW!</h2>
+    <h1> Lapis, Papyrus, Scalpellus!</h1>
+    <div id="reactions">
+        <div class="images">
+            <img id="face" src="pictures/neutral_face.png" alt="neutral_face">
+        </div>
+        <div class="speech">
+            <h1 id="direction">Welcome to the Ancient Game of Lapis, Papyrus, Scalpellus. I am the best there ever was at this game....you think you can beat me?!</h1>
+        </div>
+    </div>
     <br>
     <button class="choice_btn" id="lapis">Lapis</button>
     <button class="choice_btn" id="papyrus">Papyrus</button>
     <button class="choice_btn" id="scalpellus">Scalpellus</button>
+    
     
     <div id="r-container">
       <h2 id="result"></h2>
@@ -30,6 +37,7 @@
             <span class="computer_result">0</span>
         </div>
     </div>
+   
 </body>
 <script src="javascript/java.js"></script>
 </html>
